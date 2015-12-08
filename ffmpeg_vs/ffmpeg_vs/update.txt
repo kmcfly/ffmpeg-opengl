@@ -1,0 +1,3 @@
+
+warning:
+1.编译不过，把./Src/目录中OpenGL.rar压缩包中的.h 文件与.lib文件分别放在系统目录 inc 和lib目录中
