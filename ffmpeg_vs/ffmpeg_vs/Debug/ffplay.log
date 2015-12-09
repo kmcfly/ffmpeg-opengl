@@ -1,16 +1,218 @@
-﻿生成启动时间为 2015/12/8 16:16:49。
+﻿生成启动时间为 2015/12/9 14:30:43。
      1>项目“E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\ffplay.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“.\Debug\ffplay.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          所有输出均为最新。
-         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Src\Opengl.cpp
+         Opengl.cpp
+     1>e:\share\ffmpeg_opengl\trunk\ffmpeg_vs\ffmpeg_vs\src\opengl.cpp(154): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
        ManifestResourceCompile:
          所有输出均为最新。
        Link:
-         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/ffplay.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib glut32.lib GLaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\ffplay.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/ffplay.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\ffplay.lib" /MACHINE:X86 .\Debug\ffplay.exe.embed.manifest.res
+         .\Debug/4xm_codec.obj
+         .\Debug/8bps.obj
+         .\Debug/aasc.obj
+         .\Debug/ac3enc.obj
+         .\Debug/adpcm.obj
+         .\Debug/adx.obj
+         .\Debug/alac.obj
+         .\Debug/allcodecs.obj
+         .\Debug/asv1.obj
+         .\Debug/avs_codec.obj
+         .\Debug/bitstream.obj
+         .\Debug/bmp.obj
+         .\Debug/cabac.obj
+         .\Debug/cinepak.obj
+         .\Debug/cljr.obj
+         .\Debug/cook.obj
+         .\Debug/cscd.obj
+         .\Debug/cyuv.obj
+         .\Debug/dpcm.obj
+         .\Debug/dsputil.obj
+         .\Debug/dv_codec.obj
+         .\Debug/dvbsub.obj
+         .\Debug/dvbsubdec.obj
+         .\Debug/dvdsub.obj
+         .\Debug/dvdsubenc.obj
+         .\Debug/error_resilience.obj
+         .\Debug/eval.obj
+         .\Debug/faandct.obj
+         .\Debug/fft.obj
+         .\Debug/ffv1.obj
+         .\Debug/flac.obj
+         .\Debug/flicvideo.obj
+         .\Debug/fraps.obj
+         .\Debug/g726.obj
+         .\Debug/golomb.obj
+         .\Debug/h261.obj
+         .\Debug/h263.obj
+         .\Debug/h263dec.obj
+         .\Debug/h264.obj
+         .\Debug/h264idct.obj
+         .\Debug/huffyuv.obj
+         .\Debug/idcinvideo.obj
+         .\Debug/imgconvert.obj
+         .\Debug/imgresample.obj
+         .\Debug/indeo2.obj
+         .\Debug/indeo3.obj
+         .\Debug/interplayvideo.obj
+         .\Debug/jfdctfst.obj
+         .\Debug/jfdctint.obj
+         .\Debug/jrevdct.obj
+         .\Debug/lcl.obj
+         .\Debug/loco.obj
+         .\Debug/lzo.obj
+         .\Debug/mace.obj
+         .\Debug/mdct.obj
+         .\Debug/mem.obj
+         .\Debug/mjpeg.obj
+         .\Debug/mmvideo.obj
+         .\Debug/motion_est.obj
+         .\Debug/mpeg12.obj
+         .\Debug/mpegaudio.obj
+         .\Debug/mpegaudiodec.obj
+         .\Debug/mpegvideo.obj
+         .\Debug/msmpeg4.obj
+         .\Debug/msrle.obj
+         .\Debug/msvideo1.obj
+         .\Debug/nuv_codec.obj
+         .\Debug/opt.obj
+         .\Debug/parser.obj
+         .\Debug/pcm.obj
+         .\Debug/png_codec.obj
+         .\Debug/pnm_codec.obj
+         .\Debug/qdm2.obj
+         .\Debug/qdrw.obj
+         .\Debug/qpeg.obj
+         .\Debug/qtrle.obj
+         .\Debug/ra144.obj
+         .\Debug/ra288.obj
+         .\Debug/rangecoder.obj
+         .\Debug/ratecontrol.obj
+         .\Debug/raw_codec.obj
+         .\Debug/resample.obj
+         .\Debug/resample2.obj
+         .\Debug/roqvideo.obj
+         .\Debug/rpza.obj
+         .\Debug/rtjpeg.obj
+         .\Debug/rv10.obj
+         .\Debug/shorten.obj
+         .\Debug/simple_idct.obj
+         .\Debug/smacker_codec.obj
+         .\Debug/smc.obj
+         .\Debug/snow.obj
+         .\Debug/sonic.obj
+         .\Debug/svq1.obj
+         .\Debug/truemotion1.obj
+         .\Debug/truemotion2.obj
+         .\Debug/truespeech.obj
+         .\Debug/tscc.obj
+         .\Debug/tta_codec.obj
+         .\Debug/ulti.obj
+         .\Debug/utils_codec.obj
+         .\Debug/vc9.obj
+         .\Debug/vcr1.obj
+         .\Debug/vmdav.obj
+         .\Debug/vorbis.obj
+         .\Debug/vp3.obj
+         .\Debug/vp3dsp.obj
+         .\Debug/vqavideo.obj
+         .\Debug/wmadec.obj
+         .\Debug/wnv1.obj
+         ".\Debug/ws-snd1.obj"
+         .\Debug/xan.obj
+         .\Debug/xl.obj
+         .\Debug/zmbv.obj
+         .\Debug/4xm_format.obj
+         .\Debug/adtsenc.obj
+         .\Debug/aiff.obj
+         .\Debug/allformats.obj
+         ".\Debug/asf-enc.obj"
+         .\Debug/asf.obj
+         .\Debug/au.obj
+         .\Debug/avidec.obj
+         .\Debug/avienc.obj
+         .\Debug/avio.obj
+         .\Debug/aviobuf.obj
+         .\Debug/avs_format.obj
+         .\Debug/crc.obj
+         .\Debug/cutils.obj
+         .\Debug/daud.obj
+         .\Debug/dv_format.obj
+         .\Debug/electronicarts.obj
+         .\Debug/ffm.obj
+         .\Debug/file.obj
+         .\Debug/flic.obj
+         .\Debug/flvdec.obj
+         .\Debug/flvenc.obj
+         .\Debug/framehook.obj
+         .\Debug/gif.obj
+         .\Debug/gifdec.obj
+         .\Debug/http.obj
+         .\Debug/idcin.obj
+         .\Debug/idroq.obj
+         .\Debug/img.obj
+         .\Debug/img2.obj
+         .\Debug/ipmovie.obj
+         .\Debug/jpeg.obj
+         .\Debug/matroska.obj
+         .\Debug/mm.obj
+         .\Debug/mmf.obj
+         .\Debug/mov.obj
+         .\Debug/movenc.obj
+         .\Debug/mp3.obj
+         .\Debug/mpeg.obj
+         .\Debug/mpegts.obj
+         .\Debug/mpegtsenc.obj
+         .\Debug/mpjpeg.obj
+         .\Debug/nsvdec.obj
+         .\Debug/nut.obj
+         .\Debug/nuv_format.obj
+         .\Debug/ogg2.obj
+         .\Debug/oggparseflac.obj
+         .\Debug/oggparsetheora.obj
+         .\Debug/oggparsevorbis.obj
+         .\Debug/os_support.obj
+         .\Debug/png_format.obj
+         .\Debug/pnm_format.obj
+         .\Debug/psxstr.obj
+         .\Debug/raw_format.obj
+         .\Debug/rm.obj
+         .\Debug/rtp.obj
+         .\Debug/rtpproto.obj
+         .\Debug/rtsp.obj
+         .\Debug/segafilm.obj
+         .\Debug/sgi.obj
+         .\Debug/sierravmd.obj
+         .\Debug/smacker_format.obj
+         .\Debug/sol.obj
+         .\Debug/swf.obj
+         .\Debug/tcp.obj
+         .\Debug/tta_format.obj
+         .\Debug/udp.obj
+         .\Debug/utils_format.obj
+         .\Debug/voc.obj
+         .\Debug/wav.obj
+         .\Debug/wc3movie.obj
+         .\Debug/westwood.obj
+         .\Debug/yuv.obj
+         .\Debug/yuv4mpeg.obj
+         .\Debug/crc_util.obj
+         .\Debug/integer.obj
+         .\Debug/intfloat_readwrite.obj
+         .\Debug/mathematics.obj
+         .\Debug/rational.obj
+         .\Debug/Opengl.obj
+         .\Debug/main.obj
        Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\ffplay.exe.embed.manifest" /manifest .\Debug\ffplay.exe.intermediate.manifest
          所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         ffplay.vcxproj -> E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\.\Debug\ffplay.exe
        FinalizeBuildStatus:
          正在删除文件“.\Debug\ffplay.unsuccessfulbuild”。
          正在对“.\Debug\ffplay.lastbuildstate”执行 Touch 任务。
@@ -18,4 +220,4 @@
 
 生成成功。
 
-已用时间 00:00:00.28
+已用时间 00:00:01.41

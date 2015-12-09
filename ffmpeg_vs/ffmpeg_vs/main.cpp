@@ -202,6 +202,7 @@ DWORD WINAPI DecodeVideo(HANDLE Thread)
 						CDisplayOpenGl::PixelData = buffer;
 
 						CDisplayOpenGl::m_bReDrawFlag = true;
+						//g_CDisplayOpengl.displayBmpData(pCodecCtx->width,pCodecCtx->height,buffer);
 						Sleep(100);
 						//SaveVideoFile("SaveVideo.rgb24", buffer,pCodecCtx->width, pCodecCtx->height, 24);
 						// Save the frame to disk

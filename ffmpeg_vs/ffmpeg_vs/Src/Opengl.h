@@ -25,9 +25,11 @@ public:
 		static void Line(GLint x0,GLint y0,GLint x1,GLint y1);
 		void AnalyseBmpFile(const char *pBmpFileName);
 
-		 static void dispalyBmpData();
-
-		 static void GetBmpData(const char *pBmpFileName);
+		static void dispalyBmpData();
+		static void displayBmpData(int height,int weight,GLubyte *pData);		
+		static void GetBmpData(const char *pBmpFileName);
+	private:
+		static void timeFunc(int value);
 	public:
 		static GLint     ImageWidth;
 		static GLint     ImageHeight;

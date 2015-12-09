@@ -95,7 +95,8 @@ int CDisplayOpenGl::CreateGLWindow(CDisplayOpenGl *pDisplayObject)
 //	GetBmpData("FireBoy.bmp");
 
 	//dispalyBmpData();
-	glutDisplayFunc(&dispalyBmpData);
+	glutDisplayFunc(&dispalyBmpData);//ÖØ»æº¯Êý
+	glutTimerFunc(40,timeFunc,0);
 	glutMainLoop();
 	
 	return 0;
@@ -196,9 +197,11 @@ void CDisplayOpenGl::dispalyBmpData()
 	//glRotatef(180,0,0,0);
      // »æÖÆÏñËØ
      #if 0
+	 Line(0,0,0,0);
+	 glRotatef(180,1,0,0); 
      glDrawPixels(m_pDisplayGlObject->ImageWidth, m_pDisplayGlObject->ImageHeight,GL_BGR_EXT, GL_UNSIGNED_BYTE, m_pDisplayGlObject->PixelData);
 	#else
-	while(1)
+	//while(1)
 		{
 			
 			if(m_bReDrawFlag == true)
@@ -213,10 +216,22 @@ void CDisplayOpenGl::dispalyBmpData()
 				}
 			else
 				{
-					Sleep(10);
+					Sleep(1000);
 				}
 		}
 	#endif
     
+}
+
+void CDisplayOpenGl::displayBmpData(int height,int weight,GLubyte *pData)
+{
+	glDrawPixels(weight,height,GL_BGR_EXT, GL_UNSIGNED_BYTE, pData);
+//	glutSwapBuffers();
+}
+
+void CDisplayOpenGl::timeFunc(int value)
+{
+	dispalyBmpData();
+	glutTimerFunc(40,timeFunc,0);
 }
 

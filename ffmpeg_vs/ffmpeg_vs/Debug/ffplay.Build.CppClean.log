@@ -32,7 +32,6 @@ E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\cl.command.1.tlog
 E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\CL.read.1.tlog
 E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\CL.write.1.tlog
 E:\SHARE\FFMPEG_OPENGL\TRUNK\FFMPEG_VS\FFMPEG_VS\DEBUG\CLJR.OBJ
-E:\SHARE\FFMPEG_OPENGL\TRUNK\FFMPEG_VS\FFMPEG_VS\DEBUG\CMDUTILS.OBJ
 E:\SHARE\FFMPEG_OPENGL\TRUNK\FFMPEG_VS\FFMPEG_VS\DEBUG\COOK.OBJ
 E:\SHARE\FFMPEG_OPENGL\TRUNK\FFMPEG_VS\FFMPEG_VS\DEBUG\CRC.OBJ
 E:\SHARE\FFMPEG_OPENGL\TRUNK\FFMPEG_VS\FFMPEG_VS\DEBUG\CRC_UTIL.OBJ
@@ -57,11 +56,8 @@ E:\SHARE\FFMPEG_OPENGL\TRUNK\FFMPEG_VS\FFMPEG_VS\DEBUG\FFPLAY.EXE
 E:\SHARE\FFMPEG_OPENGL\TRUNK\FFMPEG_VS\FFMPEG_VS\DEBUG\FFPLAY.EXE.EMBED.MANIFEST
 E:\SHARE\FFMPEG_OPENGL\TRUNK\FFMPEG_VS\FFMPEG_VS\DEBUG\FFPLAY.EXE.EMBED.MANIFEST.RES
 E:\SHARE\FFMPEG_OPENGL\TRUNK\FFMPEG_VS\FFMPEG_VS\DEBUG\FFPLAY.EXE.INTERMEDIATE.MANIFEST
-E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\ffplay.exp
 E:\SHARE\FFMPEG_OPENGL\TRUNK\FFMPEG_VS\FFMPEG_VS\DEBUG\FFPLAY.ILK
-E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\ffplay.lib
 E:\SHARE\FFMPEG_OPENGL\TRUNK\FFMPEG_VS\FFMPEG_VS\DEBUG\FFPLAY.PDB
-E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\ffplay.write.1.tlog
 E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\ffplay_manifest.rc
 E:\SHARE\FFMPEG_OPENGL\TRUNK\FFMPEG_VS\FFMPEG_VS\DEBUG\FFT.OBJ
 E:\SHARE\FFMPEG_OPENGL\TRUNK\FFMPEG_VS\FFMPEG_VS\DEBUG\FFV1.OBJ
@@ -102,10 +98,10 @@ E:\SHARE\FFMPEG_OPENGL\TRUNK\FFMPEG_VS\FFMPEG_VS\DEBUG\JFDCTINT.OBJ
 E:\SHARE\FFMPEG_OPENGL\TRUNK\FFMPEG_VS\FFMPEG_VS\DEBUG\JPEG.OBJ
 E:\SHARE\FFMPEG_OPENGL\TRUNK\FFMPEG_VS\FFMPEG_VS\DEBUG\JREVDCT.OBJ
 E:\SHARE\FFMPEG_OPENGL\TRUNK\FFMPEG_VS\FFMPEG_VS\DEBUG\LCL.OBJ
-E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\link.8876.read.1.tlog
-E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\link.8876.write.1.tlog
-E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\link.8876-cvtres.read.1.tlog
-E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\link.8876-cvtres.write.1.tlog
+E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\link.5844.read.1.tlog
+E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\link.5844.write.1.tlog
+E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\link.5844-cvtres.read.1.tlog
+E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\link.5844-cvtres.write.1.tlog
 E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\link.command.1.tlog
 E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\link.read.1.tlog
 E:\share\ffmpeg_openGl\trunk\ffmpeg_vs\ffmpeg_vs\Debug\link.write.1.tlog
