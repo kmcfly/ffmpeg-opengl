@@ -1,0 +1,32 @@
+﻿生成启动时间为 2015/12/17 9:36:54。
+     1>项目“E:\share\ffmpeg_openGl\trunk\simplest_ffmpeg_player_2.5\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\simplest_ffmpeg_player2_su.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt simplest_ffmpeg_player_su.cpp
+         simplest_ffmpeg_player_su.cpp
+     1>e:\share\ffmpeg_opengl\trunk\simplest_ffmpeg_player_2.5\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(114): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\share\ffmpeg_opengl\trunk\simplest_ffmpeg_player_2.5\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(161): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\share\ffmpeg_opengl\trunk\simplest_ffmpeg_player_2.5\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(301): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+     1>e:\share\ffmpeg_opengl\trunk\simplest_ffmpeg_player_2.5\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(302): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+     1>e:\share\ffmpeg_opengl\trunk\simplest_ffmpeg_player_2.5\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(330): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+     1>e:\share\ffmpeg_opengl\trunk\simplest_ffmpeg_player_2.5\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(331): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\share\ffmpeg_openGl\trunk\simplest_ffmpeg_player_2.5\Debug\simplest_ffmpeg_player2_su.exe" /INCREMENTAL /NOLOGO /LIBPATH:lib avcodec.lib avformat.lib avutil.lib avdevice.lib avfilter.lib postproc.lib swresample.lib swscale.lib SDL2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\simplest_ffmpeg_player2_su.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\share\ffmpeg_openGl\trunk\simplest_ffmpeg_player_2.5\Debug\simplest_ffmpeg_player2_su.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\share\ffmpeg_openGl\trunk\simplest_ffmpeg_player_2.5\Debug\simplest_ffmpeg_player2_su.lib" /MACHINE:X86 Debug\simplest_ffmpeg_player2_su.exe.embed.manifest.res
+         Debug\simplest_ffmpeg_player_su.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\simplest_ffmpeg_player2_su.exe.embed.manifest" /manifest Debug\simplest_ffmpeg_player2_su.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         simplest_ffmpeg_player_su.vcxproj -> E:\share\ffmpeg_openGl\trunk\simplest_ffmpeg_player_2.5\Debug\simplest_ffmpeg_player2_su.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\simplest_ffmpeg_player2_su.unsuccessfulbuild”。
+         正在对“Debug\simplest_ffmpeg_player2_su.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\share\ffmpeg_openGl\trunk\simplest_ffmpeg_player_2.5\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.89
